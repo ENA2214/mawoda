@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekabua Mawoda</title>
+
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+    <!--Custom CSS-->
+
+    <link rel="stylesheet" href="Portfolio/css/style.css">
+</head>
+
+<body>
+    <!--Header Section-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Mawoda Ekabua</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Welcome to my portfolio!!</p>
+            <div class="social-media">
+                <a href="https://github.com/mdekabs" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-twitter' target="_blank"></i></a>
+               <!-- <a href="https://instagram.com/oktavian_na?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i
+		       class='bx bxl-instagram-alt'></i></a> -->
+                <a href="https://www.linkedin.com/in/emawoda/" target="_blank"><i
+                        class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <a href="https://wa.me/+2347015260000?text=Hello%20there!%20I%20have%20a%20job%20for%20you%20on%20a%20project" class="btn"
+                download="Contact Mawoda">Contact me directly</a>
+        </div>
+
+        <div class="home-img">
+            <img src="https://res.cloudinary.com/dxd3nmbag/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1687854034/md1_kaeoxi.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- About Section design -->
+    <section class="about" id="about">
+        <!-- <div class="about-img">
+            <img src="images/home.png" alt="">
+        </div> -->
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Backend Specialist</h3>
+            <p>Imagine a Zoologist by discipline setting sail into the digital frontier, turning into a Software Architect. 
+	    That is me—Mawoda Ekabua—a fusion of scientific curiosity and digital innovation. I did not just adapt; I thrived; I into a problem solver, driven by a passion for optimizing system performance and elevating user experiences. Adaptability? Check. Quick learner? Double-check. Curiosity that sparks innovation? Triple-check. With my unique background and unwavering commitment to excellence, I am nothing but a force to recon with.</p>
+            <span id="extra-text" style="display:none">
+                <p>I have joined forces with cross-functional teams to ochestrate the delivery of ground-breaking services powered by tech skills such as Python, Js, Nodejs, Express, Flask, Mysql and MongoDB to mention but a few. This services are not just llines of codes, it was about bridging the gap between technology and real-world problems. so i solve real problems!</p>
+                <p>At my leisure,</p>
+		<p>Enjoy a cup of coffee ☕</p>
+		<p>Enjoy watching documentaries about nature 🐅🌳</p>
+                <p>And i spend at least 5 hours helping people become better members of the society.</p>
+		<p>That is a little about me!!
+            </span>
+            <button id="toggle-btn" onclick="toggleExtra()" class="btn">Read More</button>
+        </div>
+    </section>
+
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxs-key'></i>
+                <h3>Authentication and security</h3>
+                <p>Protecting your application and user data is my top priority. I implement robust security measures, including secure authentication, authorization frameworks, encryption, and vulnerability scanning to safeguard against threats and ensure compliance.</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-server'></i>
+                <h3>Server development & API integration </h3>
+                <p>I can transform your ideas into reality by developing tailored backend solutions that align with your specific requirements. From MVPs to full-fledged applications, I provide clean, maintainable code that scales with your business needs.
+		If you already have an existing backend system, I can conduct thorough code reviews, identify areas for improvement, and optimize your codebase to enhance performance, maintainability, and scalability.Whether you need to integrate external APIs, payment gateways, or other third-party services, I have the expertise to seamlessly connect your backend systems, ensuring smooth data exchange and unlocking new functionality.</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-data'></i>
+                <h3>DataBase</h3>
+                <p>I am adept at crafting efficient database schemas, fine-tuning queries, and optimizing data storage for diverse use cases. Whether it's SQL or NoSQL, I have the expertise to work with various database systems, ensuring data integrity and high availability..</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section Design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+		    <img src="https://res.cloudinary.com/dxd3nmbag/image/upload/v1700484661/1_apke3a.png" alt="ovidot">
+                <div class="portfolio-layer">
+                    <h4>Ovidot: women's Health tracking service</h4>
+                    <p>Ovidot is a Menstrual cycle service that is aim at tracking and predict women's cycle even up to pregnancy</p>
+                    <a href="https://bit.ly/Ovidot"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://res.cloudinary.com/dxd3nmbag/image/upload/v1700485752/axist_ripzk1.jpg" alt="Axist">
+                <div class="portfolio-layer">
+                    <h4>Geo-navigation service</h4>
+                    <p>Axist help tourist and commuters find the cheapest and fastest tranport route within select cities.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <!-- <div class="portfolio-box">
+                <img src="Portfolio/images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Life Expectancy Analyze</h4>
+                    <p>Analyzing the cause of people life expectancy.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Portfolio/images/portfolio.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Chat Bot</h4>
+                    <p>Creating chat bot for social media.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Portfolio/images/portfolio.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Formatted Text</h4>
+                    <p>Making the unformatted text become neat.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Portfolio/images/portfolio.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Titanic Survivor Prediction</h4>
+                    <p>Analyzing and predicting the survivor of Titanic.</p>
+                    <a href="https://github.com/oktaviannikky/Titanic-Survivor-Prediction" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+	    </div> -->
+	</div>  
+    </section>
+
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--End of Header Section-->
+
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+
+    <!--Custom JS-->
+    <script src="Portfolio/script.js"></script>
+</body>
+
+</html>
